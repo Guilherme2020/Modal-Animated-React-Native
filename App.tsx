@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {View, StyleSheet, Text, TouchableOpacity} from 'react-native';
-import Modal from './Modal';
+import Modal from './src/components/Modal';
 
 const App = () => {
   const [modal, setModal] = useState(false);
